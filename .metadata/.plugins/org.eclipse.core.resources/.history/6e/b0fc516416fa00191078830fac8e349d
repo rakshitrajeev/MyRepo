@@ -1,0 +1,9 @@
+package com.example.demo.interfaces;
+
+import java.util.List;
+
+public interface Human {
+	public String getName();
+	List<T> findAll();
+
+}

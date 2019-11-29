@@ -1,0 +1,11 @@
+type Attendee{
+   id : ID!
+   name : String
+
+}
+
+type Speaker{
+    id : ID!
+    name : String
+    twitter : String
+}

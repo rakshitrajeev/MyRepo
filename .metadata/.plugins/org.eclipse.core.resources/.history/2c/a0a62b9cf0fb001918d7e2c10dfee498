@@ -1,0 +1,9 @@
+# import these modules
+import spacy
+
+#from nltk.stem import WordNetLemmatizer
+
+#lemmatizer = WordNetLemmatizer()
+
+#print("rocks :", lemmatizer.lemmatize("rocks"))
+#print("flying :", lemmatizer.lemmatize("fly", pos='a')) 

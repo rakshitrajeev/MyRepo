@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyFirstPythonProject/src/NER/__init__.py&apos; to &apos;NERONE.py&apos;" description="Rename resource &apos;__init__.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/NER/__init__.py" name="NERONE.py" stamp="1572605903164" updateReferences="true"/>
+</session>

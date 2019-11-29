@@ -1,0 +1,5 @@
+type Attendee{
+   id : ID!
+   name : String
+
+}

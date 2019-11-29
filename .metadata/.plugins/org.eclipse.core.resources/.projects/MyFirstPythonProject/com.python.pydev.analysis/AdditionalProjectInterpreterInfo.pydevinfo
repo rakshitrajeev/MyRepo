@@ -1,0 +1,37 @@
+-- VERSION_5
+-- START DISKCACHE_2
+D:\Users\rrajeev\Documents\workspace-sts-GraphQL\.metadata\.plugins\org.eclipse.core.resources\.projects\MyFirstPythonProject\com.python.pydev.analysis\v2_indexcache
+NER_ONE.ee|1572676754780522000|D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\ee.py
+NER_ONE.twitter|1572945495864838000|D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\twitter.py
+gensim.__init__|1572846887036647000|D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\gensim\__init__.py
+NER_ONE.__init__|1572676794319854000|D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\__init__.py
+gensim.gensimImpl|1573127331692149000|D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\gensim\gensimImpl.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+8=NER_ONE.ee
+7=D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\ee.py
+4=NER_ONE.twitter
+3=D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\twitter.py
+5=D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\__init__.py
+1=D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\gensim\gensimImpl.py
+2=gensim.gensimImpl
+6=NER_ONE.__init__
+-- END DICTIONARY
+-- START TREE 1
+11
+app|1|app!1^17#1*19@
+cal|1|calculateTwitterUsers!1^19#5*18@
+cou|2|count!1^33#5*18@count!3^29#1*35@
+doc|3|doc!5^7#1*51@doc!3^35#5*35@doc!7^6#1*67@
+eve|2|events_dict!3^14#5*35@eventName!3^18#5*35@
+ind|1|index!1^46#5*18@
+lem|2|lemmatizer!3^11#1*35@lemmatizer!1^11#1*19@
+lis|2|listOfEventNames!3^16#1*35@listOfTwittNames!3^28#1*35@
+nlp|4|nlp!7^5#1*67@nlp!3^9#1*35@nlp!5^3#1*51@nlp!1^9#1*19@
+sen|1|sentence!5^5#1*51@
+twi|2|twittText!3^31#5*35@twitter_dict!3^26#5*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

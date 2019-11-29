@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.ServletRegistrationBean"/>
+    <fullyQualifiedTypeName name="graphql.servlet.SimpleGraphQLHttpServlet"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="graphql.schema.GraphQLSchema"/>
+    <fullyQualifiedTypeName name="com.coxautodev.graphql.tools.SchemaParser"/>
+    <fullyQualifiedTypeName name="com.coxautodev.graphql.tools.GraphQLQueryResolver"/>
+    <fullyQualifiedTypeName name="repositories.TalkRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="repositories.SpeakerRepository"/>
+    <fullyQualifiedTypeName name="repositories.SpeakerTalkRepository"/>
+    <fullyQualifiedTypeName name="databasemodels.Speaker"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="databasemodels.SpeakerTalk"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="repositories.AttendeeRepository"/>
+    <fullyQualifiedTypeName name="repositories.AttendeeTalkRepository"/>
+    <fullyQualifiedTypeName name="databasemodels.Attendee"/>
+    <fullyQualifiedTypeName name="databasemodels.AttendeeTalk"/>
+    <fullyQualifiedTypeName name="databasemodels.Talk"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.example.demo.interfaces.IService"/>
+</qualifiedTypeNameHistroy>

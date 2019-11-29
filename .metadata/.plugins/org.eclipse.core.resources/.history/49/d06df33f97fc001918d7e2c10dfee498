@@ -1,0 +1,6 @@
+import spacy
+ 
+ 
+apple = 'aaa'
+ 
+print(apple)

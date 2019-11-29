@@ -1,0 +1,43 @@
+import json
+import nltk
+import spacy
+from nltk.stem import WordNetLemmatizer 
+from spacy import displacy
+from collections import Counter
+lemmatizer = WordNetLemmatizer() 
+import en_core_web_sm
+from operator import or_
+nlp = en_core_web_sm.load()
+
+with open('D:/jsonparser/jsonParser/fullFledgedTM.json', encoding="utf-8", errors='ignore') as f:
+    events_dict = json.load(f)
+listOfEventNames = []
+for eachEvent in events_dict['_embedded']['events']:
+    eventName = eachEvent['name']
+    #print(eventName)
+    listOfEventNames.append(eventName)
+    
+#print(listOfEventNames)
+
+
+with open('D:/jsonparser/jsonParser/fullFledgedTwitter.json', encoding="utf-8", errors='ignore') as f:
+    twitter_dict = json.load(f)
+listOfTwittNames = []
+count = 0;
+for eachTwitt in twitter_dict['tweets']:
+    twittText = eachTwitt['full_text']
+    #print(twittText)
+    listOfTwittNames.append(twittText)
+    doc = nlp(twittText)
+    
+    for X in doc.ents:
+        print(X.text, X.label_)
+        if X.label_ == 'Eagles' or 'Eagle' in 'X.label_':
+            count = count+1
+            continue
+            
+    #print([(X.text, X.label_) for X in doc.ents])
+    
+#print(listOfTwittNames)
+print(count)
+    

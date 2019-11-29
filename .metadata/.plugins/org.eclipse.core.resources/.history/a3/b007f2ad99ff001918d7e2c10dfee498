@@ -1,0 +1,19 @@
+from flask import  Flask  #pip3 install Flask
+from flask.json import jsonify
+import json
+from flask import request
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+
+  appDict = {
+   'name': 'messenger',
+   'playstore': True,
+   'company': 'Facebook',
+   'price': 100
+  }
+  app_json = json.dumps(appDict)
+  return jsonify(app_json)
+if __name__ == "__main__":
+   app.run(debug=True)

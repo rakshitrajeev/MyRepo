@@ -1,0 +1,11 @@
+# import these modules
+import spacy
+from spacy.lang.en.examples import sentences 
+
+nlp = spacy.load('en_core_web_sm')
+#from nltk.stem import WordNetLemmatizer
+
+#lemmatizer = WordNetLemmatizer()
+
+#print("rocks :", lemmatizer.lemmatize("rocks"))
+#print("flying :", lemmatizer.lemmatize("fly", pos='a')) 

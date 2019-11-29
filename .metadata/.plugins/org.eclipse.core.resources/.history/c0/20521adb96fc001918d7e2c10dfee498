@@ -1,0 +1,3 @@
+import spacy
+
+n = spacy.load('en_core_web_sm')

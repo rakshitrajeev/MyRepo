@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+D:\Users\rrajeev\Documents\workspace-sts-GraphQL\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4187941737.index
+899433949.index
+2401476325.index
+3608766444.index
+214484906.index

@@ -1,0 +1,22 @@
+# import these modules
+
+import spacy
+nlp = spacy.load('en_core_web_sm')
+
+sentence = "Apple is looking at buying U.K. startup for $1 billion"
+
+doc = nlp(sentence)
+
+for ent in doc.ents:
+   
+
+
+
+#from collections import Counter
+#import en_core_web_sm
+#from pip._vendor.html5lib.treewalkers import pprint
+#nlp = en_core_web_sm.load()
+
+#doc = nlp('European authorities fined Google a record $5.1 billion on Wednesday for abusing its power in the mobile phone market and ordered the company to alter its practices')
+
+#pprint([(X.text, X.label_) for X in doc.ents])

@@ -1,0 +1,4 @@
+type Attendee{
+   id : ID!
+
+}

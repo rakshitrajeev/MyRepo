@@ -1,0 +1,15 @@
+INSTUPNER_ONE.twitter
+D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\twitter.py
+INFOS:&&3|1|2|0|3|9|1&&3|4|2|0|3|11|1&&3|5|2|0|3|14|5&&3|6|2|0|3|16|1&&3|7|2|0|3|18|5&&3|8|2|0|3|26|5&&3|9|2|0|3|28|1&&3|10|2|0|3|29|1&&3|11|2|0|3|31|5&&3|12|2|0|3|35|5&&3|10|2|0|3|42|13
+NER_ONE.twitter=2
+D:\Users\rrajeev\Documents\workspace-sts-GraphQL\MyFirstPythonProject\src\NER_ONE\twitter.py=3
+count=10
+twittText=11
+listOfTwittNames=9
+nlp=1
+events_dict=5
+lemmatizer=4
+eventName=7
+doc=12
+listOfEventNames=6
+twitter_dict=8
