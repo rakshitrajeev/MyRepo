@@ -1,0 +1,36 @@
+type Attendee implements Human{
+   id : ID!
+   name : String
+
+}
+
+type Speaker implements Human{
+    id : ID!
+    name : String
+    twitter : String
+}
+
+interface Human{
+    name : String
+}
+
+type Talk{
+    id : ID!
+    title : String
+    description : String
+    speakers : [Speaker]
+
+}
+
+
+type Query{
+   allSpeakers : [Speaker]
+   allAttendees : [Attendee]
+   allTalks : [Talk]
+   
+}
+
+schema {
+   query : Query
+}
+
